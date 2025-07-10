@@ -8,9 +8,9 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Windows 10/Desktop/ALU/ALU_verilog_implementation
+Z0 dC:/Users/Windows 10/Desktop/ALU/8-bit-ALU/ALU_verilog_implementation
 vALU_tb
-Z1 !s110 1749225970
+Z1 !s110 1752166318
 !i10b 1
 !s100 <`j1K0ZheY[KlSA]l6IG93
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1749225969.000000
+Z5 !s108 1752166317.000000
 !s107 booth_encoder.v|demux1_2.v|bus_demux.v|bus_mux.v|d_latch.v|d_flip_flop.v|counter_3_bit.v|exor_wordgate.v|half_adder_cell.v|register_QP.v|register_M.v|register_Q.v|encoder4_2.v|mux4_1.v|mux2_1.v|register_A.v|full_adder_cell.v|parallel_adder.v|control_unit.v|data_path.v|ALU_tb.v|
 Z6 !s90 -reportprogress|300|ALU_tb.v|data_path.v|control_unit.v|
 !i113 1
