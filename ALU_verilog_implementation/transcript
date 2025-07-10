@@ -1,0 +1,347 @@
+# Compile of register_M.v was successful.
+vsim -gui work.register_M_tb
+# vsim -gui work.register_M_tb 
+# Start time: 22:44:38 on Apr 25,2025
+# Loading work.register_M_tb
+# Loading work.register_M
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 2 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 2 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 2 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 2 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position end sim:/register_M_tb/*
+run -all
+quit -sim
+# End time: 22:45:13 on Apr 25,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 3
+# Compile of data_path.v was successful with warnings.
+# Compile of control_unit.v was successful.
+# Compile of ALU_tb.v was successful with warnings.
+# Compile of register_M.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 23:15:37 on Apr 25,2025
+# Loading work.ALU_tb
+# Loading work.data_path
+# Loading work.register_A
+# Loading work.encoder4_2
+# Loading work.mux2_1
+# Loading work.register_Q
+# Loading work.register_M
+# Loading work.register_QP
+# Loading work.counter_3_bit
+# Loading work.parallel_adder
+# Loading work.bus_mux
+# Loading work.bus_demux
+# Loading work.exor_wordgate
+# Loading work.booth_encoder
+# Loading work.control_unit
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Loading work.half_adder_cell
+# Loading work.full_adder_cell
+# Loading work.demux1_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'o1'. The port definition is at: bus_demux.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/DUT_DATA_PATH/demux2 File: data_path.v Line: 100
+add wave -position end sim:/ALU_tb/*
+run -all
+quit -sim
+# End time: 23:16:12 on Apr 25,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 3
+# Compile of data_path.v was successful with warnings.
+# Compile of control_unit.v was successful.
+# Compile of ALU_tb.v was successful with warnings.
+# Compile of register_M.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 23:17:20 on Apr 25,2025
+# Loading work.ALU_tb
+# Loading work.data_path
+# Loading work.register_A
+# Loading work.encoder4_2
+# Loading work.mux2_1
+# Loading work.register_Q
+# Loading work.register_M
+# Loading work.register_QP
+# Loading work.counter_3_bit
+# Loading work.parallel_adder
+# Loading work.bus_mux
+# Loading work.bus_demux
+# Loading work.exor_wordgate
+# Loading work.booth_encoder
+# Loading work.control_unit
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Loading work.half_adder_cell
+# Loading work.full_adder_cell
+# Loading work.demux1_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'o1'. The port definition is at: bus_demux.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/DUT_DATA_PATH/demux2 File: data_path.v Line: 100
+add wave -position end sim:/ALU_tb/*
+run -all
+quit -sim
+# End time: 23:18:32 on Apr 25,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 3
+# Compile of data_path.v was successful with warnings.
+# Compile of control_unit.v was successful.
+# Compile of ALU_tb.v was successful with warnings.
+# Compile of register_M.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 23:20:33 on Apr 25,2025
+# Loading work.ALU_tb
+# Loading work.data_path
+# Loading work.register_A
+# Loading work.encoder4_2
+# Loading work.mux2_1
+# Loading work.register_Q
+# Loading work.register_M
+# Loading work.register_QP
+# Loading work.counter_3_bit
+# Loading work.parallel_adder
+# Loading work.bus_mux
+# Loading work.bus_demux
+# Loading work.exor_wordgate
+# Loading work.booth_encoder
+# Loading work.control_unit
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Loading work.half_adder_cell
+# Loading work.full_adder_cell
+# Loading work.demux1_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'o1'. The port definition is at: bus_demux.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/DUT_DATA_PATH/demux2 File: data_path.v Line: 100
+add wave -position end sim:/ALU_tb/*
+run -all
+quit -sim
+# End time: 23:21:05 on Apr 25,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 3
+# Compile of data_path.v was successful with warnings.
+# Compile of control_unit.v was successful.
+# Compile of ALU_tb.v was successful with warnings.
+# Compile of register_M.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 23:21:20 on Apr 25,2025
+# Loading work.ALU_tb
+# Loading work.data_path
+# Loading work.register_A
+# Loading work.encoder4_2
+# Loading work.mux2_1
+# Loading work.register_Q
+# Loading work.register_M
+# Loading work.register_QP
+# Loading work.counter_3_bit
+# Loading work.parallel_adder
+# Loading work.bus_mux
+# Loading work.bus_demux
+# Loading work.exor_wordgate
+# Loading work.booth_encoder
+# Loading work.control_unit
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Loading work.half_adder_cell
+# Loading work.full_adder_cell
+# Loading work.demux1_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'o1'. The port definition is at: bus_demux.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/DUT_DATA_PATH/demux2 File: data_path.v Line: 100
+add wave -position end sim:/ALU_tb/*
+run -all
+quit -sim
+# End time: 23:22:30 on Apr 25,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 3
+# Load canceled
+# Compile of data_path.v was successful with warnings.
+# Compile of control_unit.v was successful.
+# Compile of ALU_tb.v was successful with warnings.
+# Compile of register_M.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 01:20:00 on Apr 26,2025
+# Loading work.ALU_tb
+# Loading work.data_path
+# Loading work.register_A
+# Loading work.encoder4_2
+# Loading work.mux2_1
+# Loading work.register_Q
+# Loading work.register_M
+# Loading work.register_QP
+# Loading work.counter_3_bit
+# Loading work.parallel_adder
+# Loading work.bus_mux
+# Loading work.bus_demux
+# Loading work.exor_wordgate
+# Loading work.booth_encoder
+# Loading work.control_unit
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Loading work.half_adder_cell
+# Loading work.full_adder_cell
+# Loading work.demux1_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'o1'. The port definition is at: bus_demux.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/DUT_DATA_PATH/demux2 File: data_path.v Line: 100
+add wave -position end sim:/ALU_tb/*
+run -all
+quit -sim
+# End time: 01:21:49 on Apr 26,2025, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 3
+# ERROR: No extended dataflow license exists
+# ERROR: No extended dataflow license exists
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 01:23:27 on Apr 26,2025
+# Loading work.ALU_tb
+# Loading work.data_path
+# Loading work.register_A
+# Loading work.encoder4_2
+# Loading work.mux2_1
+# Loading work.register_Q
+# Loading work.register_M
+# Loading work.register_QP
+# Loading work.counter_3_bit
+# Loading work.parallel_adder
+# Loading work.bus_mux
+# Loading work.bus_demux
+# Loading work.exor_wordgate
+# Loading work.booth_encoder
+# Loading work.control_unit
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Loading work.half_adder_cell
+# Loading work.full_adder_cell
+# Loading work.demux1_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'o1'. The port definition is at: bus_demux.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/DUT_DATA_PATH/demux2 File: data_path.v Line: 100
+add wave -position end sim:/ALU_tb/*
+run -all
+quit -sim
+# End time: 01:24:36 on Apr 26,2025, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 2
+# Compile of data_path.v was successful with warnings.
+# Compile of control_unit.v was successful.
+# Compile of ALU_tb.v was successful with warnings.
+# Compile of register_M.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of data_path.v was successful with warnings.
+# Compile of control_unit.v was successful.
+# Compile of ALU_tb.v was successful with warnings.
+# Compile of register_M.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 02:35:53 on Apr 26,2025
+# Loading work.ALU_tb
+# Loading work.data_path
+# Loading work.register_A
+# Loading work.encoder4_2
+# Loading work.mux2_1
+# Loading work.register_Q
+# Loading work.register_M
+# Loading work.register_QP
+# Loading work.counter_3_bit
+# Loading work.parallel_adder
+# Loading work.bus_mux
+# Loading work.bus_demux
+# Loading work.exor_wordgate
+# Loading work.booth_encoder
+# Loading work.control_unit
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Loading work.half_adder_cell
+# Loading work.full_adder_cell
+# Loading work.demux1_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'o1'. The port definition is at: bus_demux.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/DUT_DATA_PATH/demux2 File: data_path.v Line: 100
+add wave -position end sim:/ALU_tb/*
+run -all
+quit -sim
+# End time: 02:37:19 on Apr 26,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 4
+# Compile of data_path.v was successful with warnings.
+# Compile of control_unit.v was successful.
+# Compile of ALU_tb.v was successful with warnings.
+# Compile of register_M.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 02:54:05 on Apr 26,2025
+# Loading work.ALU_tb
+# Loading work.data_path
+# Loading work.register_A
+# Loading work.encoder4_2
+# Loading work.mux2_1
+# Loading work.register_Q
+# Loading work.register_M
+# Loading work.register_QP
+# Loading work.counter_3_bit
+# Loading work.parallel_adder
+# Loading work.bus_mux
+# Loading work.bus_demux
+# Loading work.exor_wordgate
+# Loading work.booth_encoder
+# Loading work.control_unit
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Loading work.half_adder_cell
+# Loading work.full_adder_cell
+# Loading work.demux1_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'o1'. The port definition is at: bus_demux.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/DUT_DATA_PATH/demux2 File: data_path.v Line: 100
+quit -sim
+# End time: 02:54:17 on Apr 26,2025, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 3
+# Compile of data_path.v was successful with warnings.
+# Compile of control_unit.v was successful.
+# Compile of ALU_tb.v was successful with warnings.
+# Compile of register_M.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 02:55:02 on Apr 26,2025
+# Loading work.ALU_tb
+# Loading work.data_path
+# Loading work.register_A
+# Loading work.encoder4_2
+# Loading work.mux2_1
+# Loading work.register_Q
+# Loading work.register_M
+# Loading work.register_QP
+# Loading work.counter_3_bit
+# Loading work.parallel_adder
+# Loading work.bus_mux
+# Loading work.bus_demux
+# Loading work.exor_wordgate
+# Loading work.booth_encoder
+# Loading work.control_unit
+# Loading work.d_flip_flop
+# Loading work.d_latch
+# Loading work.mux4_1
+# Loading work.half_adder_cell
+# Loading work.full_adder_cell
+# Loading work.demux1_2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'o1'. The port definition is at: bus_demux.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/DUT_DATA_PATH/demux2 File: data_path.v Line: 100
+add wave -position end sim:/ALU_tb/*
+run -all
+# Quit canceled
+quit -sim
+# End time: 03:09:34 on Apr 26,2025, Elapsed time: 0:14:32
+# Errors: 0, Warnings: 4

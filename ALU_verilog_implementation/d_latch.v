@@ -1,0 +1,30 @@
+module d_latch(input d,input clk, output wire q,output wire not_q); //used to create a d flip flop using master slave configuration
+assign not_q=~(q&~(~d&clk));
+assign q=~(not_q&~(d&clk));
+endmodule
+
+module d_latch_tb();
+reg d;
+reg clk;
+wire q;
+wire not_q;
+
+d_latch DUT_DL(.d(d), .clk(clk), .q(q), .not_q(not_q));
+
+initial begin
+clk=1'b1;
+repeat (70) #(50) clk=~clk;
+end
+
+initial begin
+d=0;
+#80;
+d=1;
+#20;
+d=0;
+#20;
+d=1;
+#80;
+end
+
+endmodule

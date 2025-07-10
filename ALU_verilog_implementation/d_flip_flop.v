@@ -1,0 +1,47 @@
+`include"d_latch.v"
+
+module d_flip_flop(input d,input clk, output wire q,output wire not_q); //implemented using d latches in master-slave configuration
+
+wire wq,nwq;
+d_latch inst0(.d(d), .clk(~clk), .q(wq), .not_q(nwq));
+d_latch inst1(.d(wq), .clk(clk), .q(q), .not_q(not_q));
+endmodule
+
+module d_flip_flop_tb();
+reg d;
+reg clk;
+wire q;
+wire not_q;
+
+d_flip_flop DUT_DFF(.d(d), .clk(clk), .q(q), .not_q(not_q));
+
+initial begin
+clk=1'b0;
+repeat (70) #(50) clk=~clk;
+end
+
+initial begin
+d=0;
+#80;
+d=1;
+#80;
+d=0;
+#20;
+d=1;
+#80;
+d=0;
+#50;
+d=1;
+#80;
+d=0;
+#20;
+d=1;
+#80;
+d=0;
+#60;
+d=1;
+#80;
+d=0;
+end
+
+endmodule

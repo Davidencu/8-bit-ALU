@@ -1,0 +1,44 @@
+module parallel_adder(input [8:0]x, input [8:0]y, input cin, output [8:0]sum, output cout); //the 9 bit parallel adder
+wire [7:0]w;
+	genvar i;
+	generate
+		for(i=0;i<9;i=i+1) begin: full_adder_cell
+		if (i==0)	
+			full_adder_cell instance0(.a(x[i]), .b(y[i]), .cin(cin), .sum(sum[i]), .cout(w[0]));
+		else if (i==8)
+			full_adder_cell instance1(.a(x[i]), .b(y[i]), .cin(w[i-1]), .sum(sum[i]), .cout(cout));
+		else
+			full_adder_cell instance2(.a(x[i]), .b(y[i]), .cin(w[i-1]), .sum(sum[i]), .cout(w[i]));
+		end
+	endgenerate
+endmodule
+
+module parallel_adder_tb();
+
+reg [8:0]x;
+reg [8:0]y;
+reg cin;
+wire [8:0]sum;
+wire cout;
+
+parallel_adder DUT_PA(.x(x), .y(y), .cin(cin), .sum(sum), .cout(cout));
+
+integer c,i,j;
+
+initial begin
+for(c=0;c<=1;c=c+1)
+begin
+	for(i=0;i<256;i=i+1)
+	begin
+		for(j=0;j<256;j=j+1)
+		begin
+			cin=c;
+			x=i;
+			y=j;
+			#100;
+		end
+	end
+end
+end
+
+endmodule

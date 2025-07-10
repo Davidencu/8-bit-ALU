@@ -1,0 +1,173 @@
+{C:/Users/Windows 10/Desktop/ALU/data_path.v} {2 {vlog -work work -stats=none {C:/Users/Windows 10/Desktop/ALU/data_path.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module parallel_adder
+-- Compiling module parallel_adder_tb
+-- Compiling module full_adder_cell
+-- Compiling module mux2_1
+-- Compiling module mux4_1
+-- Compiling module encoder4_2
+-- Compiling module register_A
+-- Compiling module register_A_tb
+-- Compiling module register_Q
+-- Compiling module register_Q_tb
+-- Compiling module register_M
+-- Compiling module register_M_tb
+-- Compiling module half_adder_cell
+-- Compiling module register_QP
+-- Compiling module register_QP_tb
+-- Compiling module exor_wordgate
+-- Compiling module exor_wordgate_tb
+** Warning: ** while parsing file included at C:/Users/Windows 10/Desktop/ALU/data_path.v(8)
+** while parsing file included at counter_3_bit.v(1)
+** at mux2_1.v(1): (vlog-2275) Existing module 'mux2_1' will be overwritten.
+-- Compiling module mux2_1
+-- Compiling module d_latch
+-- Compiling module d_latch_tb
+-- Compiling module d_flip_flop
+-- Compiling module d_flip_flop_tb
+-- Compiling module counter_3_bit
+-- Compiling module counter_3_bit_tb
+** Warning: ** while parsing file included at C:/Users/Windows 10/Desktop/ALU/data_path.v(9)
+** while parsing file included at bus_mux.v(1)
+** at mux2_1.v(1): (vlog-2275) Existing module 'mux2_1' will be overwritten.
+-- Compiling module mux2_1
+-- Compiling module bus_mux
+-- Compiling module bus_mux_tb
+-- Compiling module demux1_2
+-- Compiling module bus_demux
+-- Compiling module bus_demux_tb
+-- Compiling module booth_encoder
+-- Compiling module data_path
+-- Compiling module data_path_tb
+-- Compiling module data_path_tb2
+
+Top level modules:
+	parallel_adder_tb
+	register_A_tb
+	register_Q_tb
+	register_M_tb
+	register_QP_tb
+	exor_wordgate_tb
+	d_latch_tb
+	d_flip_flop_tb
+	counter_3_bit_tb
+	bus_mux_tb
+	bus_demux_tb
+	data_path_tb
+	data_path_tb2
+
+} {} {}} {C:/Users/Windows 10/Desktop/ALU/ALU_tb.v} {2 {vlog -work work -stats=none {C:/Users/Windows 10/Desktop/ALU/ALU_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module parallel_adder
+-- Compiling module parallel_adder_tb
+-- Compiling module full_adder_cell
+-- Compiling module mux2_1
+-- Compiling module mux4_1
+-- Compiling module encoder4_2
+-- Compiling module register_A
+-- Compiling module register_A_tb
+-- Compiling module register_Q
+-- Compiling module register_Q_tb
+-- Compiling module register_M
+-- Compiling module register_M_tb
+-- Compiling module half_adder_cell
+-- Compiling module register_QP
+-- Compiling module register_QP_tb
+-- Compiling module exor_wordgate
+-- Compiling module exor_wordgate_tb
+** Warning: ** while parsing file included at C:/Users/Windows 10/Desktop/ALU/ALU_tb.v(1)
+** while parsing file included at data_path.v(8)
+** while parsing file included at counter_3_bit.v(1)
+** at mux2_1.v(1): (vlog-2275) Existing module 'mux2_1' will be overwritten.
+-- Compiling module mux2_1
+-- Compiling module d_latch
+-- Compiling module d_latch_tb
+-- Compiling module d_flip_flop
+-- Compiling module d_flip_flop_tb
+-- Compiling module counter_3_bit
+-- Compiling module counter_3_bit_tb
+** Warning: ** while parsing file included at C:/Users/Windows 10/Desktop/ALU/ALU_tb.v(1)
+** while parsing file included at data_path.v(9)
+** while parsing file included at bus_mux.v(1)
+** at mux2_1.v(1): (vlog-2275) Existing module 'mux2_1' will be overwritten.
+-- Compiling module mux2_1
+-- Compiling module bus_mux
+-- Compiling module bus_mux_tb
+-- Compiling module demux1_2
+-- Compiling module bus_demux
+-- Compiling module bus_demux_tb
+-- Compiling module booth_encoder
+-- Compiling module data_path
+-- Compiling module data_path_tb
+-- Compiling module data_path_tb2
+** Warning: ** while parsing file included at C:/Users/Windows 10/Desktop/ALU/ALU_tb.v(2)
+** while parsing file included at control_unit.v(1)
+** while parsing file included at d_flip_flop.v(1)
+** at d_latch.v(1): (vlog-2275) Existing module 'd_latch' will be overwritten.
+-- Compiling module d_latch
+** Warning: ** while parsing file included at C:/Users/Windows 10/Desktop/ALU/ALU_tb.v(2)
+** while parsing file included at control_unit.v(1)
+** while parsing file included at d_flip_flop.v(1)
+** at d_latch.v(6): (vlog-2275) Existing module 'd_latch_tb' will be overwritten.
+-- Compiling module d_latch_tb
+** Warning: ** while parsing file included at C:/Users/Windows 10/Desktop/ALU/ALU_tb.v(2)
+** while parsing file included at control_unit.v(1)
+** at d_flip_flop.v(3): (vlog-2275) Existing module 'd_flip_flop' will be overwritten.
+-- Compiling module d_flip_flop
+** Warning: ** while parsing file included at C:/Users/Windows 10/Desktop/ALU/ALU_tb.v(2)
+** while parsing file included at control_unit.v(1)
+** at d_flip_flop.v(10): (vlog-2275) Existing module 'd_flip_flop_tb' will be overwritten.
+-- Compiling module d_flip_flop_tb
+** Warning: ** while parsing file included at C:/Users/Windows 10/Desktop/ALU/ALU_tb.v(2)
+** while parsing file included at control_unit.v(2)
+** at mux2_1.v(1): (vlog-2275) Existing module 'mux2_1' will be overwritten.
+-- Compiling module mux2_1
+-- Compiling module control_unit
+-- Compiling module control_unit_tb
+-- Compiling module control_unit_tb2
+-- Compiling module ALU_tb
+
+Top level modules:
+	parallel_adder_tb
+	register_A_tb
+	register_Q_tb
+	register_M_tb
+	register_QP_tb
+	exor_wordgate_tb
+	d_latch_tb
+	d_flip_flop_tb
+	counter_3_bit_tb
+	bus_mux_tb
+	bus_demux_tb
+	data_path_tb
+	data_path_tb2
+	control_unit_tb
+	control_unit_tb2
+	ALU_tb
+
+} {} {}} {C:/Users/Windows 10/Desktop/ALU/control_unit.v} {1 {vlog -work work -stats=none {C:/Users/Windows 10/Desktop/ALU/control_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_latch
+-- Compiling module d_latch_tb
+-- Compiling module d_flip_flop
+-- Compiling module d_flip_flop_tb
+-- Compiling module mux2_1
+-- Compiling module control_unit
+-- Compiling module control_unit_tb
+-- Compiling module control_unit_tb2
+
+Top level modules:
+	d_latch_tb
+	d_flip_flop_tb
+	control_unit_tb
+	control_unit_tb2
+
+} {} {}} {C:/Users/Windows 10/Desktop/ALU/register_M.v} {1 {vlog -work work -stats=none {C:/Users/Windows 10/Desktop/ALU/register_M.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_M
+-- Compiling module register_M_tb
+
+Top level modules:
+	register_M_tb
+
+} {} {}}
